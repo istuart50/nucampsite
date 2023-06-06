@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
     "typeface-lobster": "^1.1.13"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^4.14.1"
   }
 }
